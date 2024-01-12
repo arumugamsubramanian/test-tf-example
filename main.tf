@@ -8,11 +8,11 @@ terraform {
 
 resource "local_file" "hello" {
     content = "hello world"
-    filename = "hello.txt"
+    filename = "hello33333.txt"
 }
 
 terraform {
   backend "pg" {
-    conn_str = "postgres://postgres:password@postgres.127-0-0-1.nip.io:5444/tf?sslmode=disable"
+    conn_str = "postgres://postgres:password@postgresql-hl.database:5432/tf?sslmode=disable"
   }
 }
