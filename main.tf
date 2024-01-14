@@ -8,7 +8,7 @@ terraform {
 
 resource "local_file" "hello" {
     content = "hello world"
-    filename = "hello33333.txt"
+    filename = "hellosss.txt"
 }
 
 terraform {
